@@ -1,0 +1,22 @@
+# Files & folders OS
+# Garbage files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea
+*.sublime*
+.vscode
+
+# Logs
+logs
+*.log*
+
+# Misc files
+# Dependency directory
+node_modules/
+reports/
+
+# The build folder
+# build
+
