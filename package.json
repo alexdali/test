@@ -1,12 +1,51 @@
 {
   "name": "login_form",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "test task",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp start",
+    "build": "gulp build",
+    "test": "editorconfig-cli && stylelint ./src/styles/**/*.scss --syntax scss && eslint ./src/js",
+    "eslint-fix": "eslint ./src/js/** --fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Alexey Tasbauov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-htmlacademy": "^0.5.2",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-terser": "^1.2.0",
+    "gulp-w3c-html-validator": "^2.0.0",
+    "node-sass": "^4.13.1",
+    "stylelint": "^13.2.1",
+    "stylelint-config-htmlacademy": "^0.1.4",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.16.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
