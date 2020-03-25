@@ -46,6 +46,7 @@
     "stylelint-scss": "^3.16.0"
   },
   "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
     "normalize.css": "^8.0.1"
   }
 }

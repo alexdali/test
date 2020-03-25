@@ -1,0 +1,28 @@
+@import "global";
+
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 60px auto;
+  border: 1px solid orange;
+  max-width: 665px;
+  max-height: 481px;
+}
+
+.left-part {
+  position: relative;
+  width: 137.2px;
+  height: 480px;
+  background-color: #5A61ED;
+}
+
+.title-form {
+  white-space: nowrap;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 49px;
+  transform: rotate(-90deg);
+  color: white;
+  position: absolute;
+  bottom: 21.98px;
+  left: 13px;
+}
